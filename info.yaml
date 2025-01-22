@@ -1,20 +1,20 @@
 library: JNW_EX_SKY130A
 cell: JNW_EX
 # Your name
-author: Anonymous
+author: Renate Klemetsdal
 # Your github username
-github: analogicus
+github: renhkl
 # Something funny and descriptive
-tagline: The answer is 42
+tagline: Something funny and descriptive
 # Your email, if you so wish
-email: anon@anon.com
+email: username@email.com
 # Your github site, usually <github username>.github.io
-url: analogicus.github.io
+url: renhkl.github.io
 doc:
   # Make docs
-  #libraries:
-  #   <library>:
-  #       - <cell>
+  libraries: 
+    JNW_EX_SKY130A:
+      - JNW_EX
   #       - <cell>
 sim:
-  # <simdir>: command
+  JNW_EX: make typical
