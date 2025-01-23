@@ -1,5 +1,4 @@
-v {xschem version=3.4.5 file_version=1.2
-}
+v {xschem version=3.4.6 file_version=1.2}
 G {}
 K {}
 V {}
@@ -12,7 +11,7 @@ Shift-R          Rotate
 F                  Full view
 
 Manual: https://xschem.sourceforge.io/stefan/xschem_man/xschem_man.pdf
-} -500 -970 0 0 0.6 0.6 {}
+} -160 -1190 0 0 0.6 0.6 {}
 N -160 -470 -150 -470 {lab=IBPS_5U}
 N -150 -470 -140 -470 {lab=IBPS_5U}
 N -140 -470 -130 -470 {lab=IBPS_5U}
@@ -70,113 +69,11 @@ N -260 -530 -200 -530 {lab=IBPS_5U}
 N -30 -510 -30 -500 {lab=IBNS_20U}
 N -30 -520 -30 -510 {lab=IBNS_20U}
 N -30 -520 20 -520 {lab=IBNS_20U}
-C {cborder/border_s.sym} 360 -390 0 0 {
+C {cborder/border_s.sym} 350 -390 0 0 {
 user="wulff"
 company="wulff"}
-C {ipin.sym} -260 -410 0 0 {name=p1 lab=VSS \{xschem version=3.4.4 file_version=1.2
-*
-* This file is part of XSCHEM,
-* a schematic capture and Spice/Vhdl/Verilog netlisting tool for circuit
-* simulation.
-* Copyright (C) 1998-2023 Stefan Frederik Schippers
-*
-* This program is free software; you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation; either version 2 of the License, or
-* (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-* GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License
-* along with this program; if not, write to the Free Software
-* Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
-\}
-G \{\}
-K \{type=ipin
-format="*.ipin @lab"
-template="name=p1 lab=xxx"
-\}
-V \{\}
-S \{\}
-E \{\}
-L 5 -5 0 0 0 \{\}
-B 5 -1.25 -1.25 1.25 1.25 \{name=p dir=out\}
-P 5 7 -5 0 -8.75 -5 -17.5 -5 -13.75 0 -17.5 5 -8.75 5 -5 0 \{fill=true\}
-T \{@lab\} -18.75 -8.75 0 1 0.33 0.33 \{\}
-T \{@spice_get_voltage\} 1.875 3.90625 0 0 0.2 0.2 \{layer=15\}
-VSS}
-C {ipin.sym} -260 -530 0 0 {name=p2 lab=IBPS_5U \{xschem version=3.4.4 file_version=1.2
-*
-* This file is part of XSCHEM,
-* a schematic capture and Spice/Vhdl/Verilog netlisting tool for circuit
-* simulation.
-* Copyright (C) 1998-2023 Stefan Frederik Schippers
-*
-* This program is free software; you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation; either version 2 of the License, or
-* (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-* GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License
-* along with this program; if not, write to the Free Software
-* Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
-\}
-G \{\}
-K \{type=ipin
-format="*.ipin @lab"
-template="name=p1 lab=xxx"
-\}
-V \{\}
-S \{\}
-E \{\}
-L 5 -5 0 0 0 \{\}
-B 5 -1.25 -1.25 1.25 1.25 \{name=p dir=out\}
-P 5 7 -5 0 -8.75 -5 -17.5 -5 -13.75 0 -17.5 5 -8.75 5 -5 0 \{fill=true\}
-T \{@lab\} -18.75 -8.75 0 1 0.33 0.33 \{\}
-T \{@spice_get_voltage\} 1.875 3.90625 0 0 0.2 0.2 \{layer=15\}
-IBPS_5U}
-C {/home/renhkl/pro/aicex/ip/jnw_ex_sky130a/design/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -70 -470 0 0 {name=xo[3:0]}
-C {/home/renhkl/pro/aicex/ip/jnw_ex_sky130a/design/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -160 -470 0 1 {name=xi }
-C {ipin.sym} 20 -520 2 0 {name=p3 lab=IBNS_20U \{xschem version=3.4.4 file_version=1.2
-*
-* This file is part of XSCHEM,
-* a schematic capture and Spice/Vhdl/Verilog netlisting tool for circuit
-* simulation.
-* Copyright (C) 1998-2023 Stefan Frederik Schippers
-*
-* This program is free software; you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation; either version 2 of the License, or
-* (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-* GNU General Public License for more details.
-*
-* You should have received a copy of the GNU General Public License
-* along with this program; if not, write to the Free Software
-* Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
-\}
-G \{\}
-K \{type=ipin
-format="*.ipin @lab"
-template="name=p1 lab=xxx"
-\}
-V \{\}
-S \{\}
-E \{\}
-L 5 -5 0 0 0 \{\}
-B 5 -1.25 -1.25 1.25 1.25 \{name=p dir=out\}
-P 5 7 -5 0 -8.75 -5 -17.5 -5 -13.75 0 -17.5 5 -8.75 5 -5 0 \{fill=true\}
-T \{@lab\} -18.75 -8.75 0 1 0.33 0.33 \{\}
-T \{@spice_get_voltage\} 1.875 3.90625 0 0 0.2 0.2 \{layer=15\}
-}
+C {devices/ipin.sym} -260 -410 0 0 {name=p1 lab=VSS}
+C {devices/ipin.sym} -260 -530 0 0 {name=p2 lab=IBPS_5U}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -70 -470 0 0 {name=xo[3:0]}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -160 -470 0 1 {name=xi }
+C {devices/ipin.sym} 20 -520 2 0 {name=p3 lab=IBNS_20U}
