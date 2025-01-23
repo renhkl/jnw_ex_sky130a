@@ -18,32 +18,32 @@ I made the module by using some of the previously installed tools Magic VSLI, ng
 
 # What
 
-| What            |        Cell/Name                 |
-| :----------------|:--------------------------------:|
-| Schematic       | design/JNW_EX_SKY130A/JNW_EX.sch |
-| Layout          | design/JNW_EX_SKY130A/JNW_EX.mag |
+| What            |        Cell/Name                 |  
+| :----------------|:--------------------------------:|  
+| Schematic       | design/JNW_EX_SKY130A/JNW_EX.sch |  
+| Layout          | design/JNW_EX_SKY130A/JNW_EX.mag |  
 
 
 # Changelog/Plan
 
-| Version | Status  | Comment                  |
-| :--------|:--------|:-------------------------|
-|0.1.0    | :x:     | Schematic and simulation |
+| Version | Status  | Comment                  |  
+| :--------|:--------|:-------------------------|  
+|0.1.0    | :x:     | Schematic and simulation |  
 
 
 # Signal interface
 
-| Signal       | Direction | Domain  | Description     |
-| :-------------|:---------:|:-------:|:----------------|
-| VSS          | Input     |         |                 |
-| IBP_5U       | Input     |         |                 |
-| IBNS_20U     | Input     |         |                 |
+| Signal       | Direction | Domain  | Description     |  
+| :-------------|:---------:|:-------:|:----------------|  
+| VSS          | Input     |         |                 |  
+| IBP_5U       | Input     |         |                 |  
+| IBNS_20U     | Input     |         |                 |  
 
 
 # Key parameters
 
-| Parameter           | Min     | Typ             | Max     | Unit  |
-| :--------------------|:-------:|:---------------:|:-------:|:-----:|
-| Technology          |         | Skywater 130 nm |         |       |
-| AVDD                | 1.7     | 1.8             | 1.9     | V     |
-| Temperature         | -40     | 27              | 125     | C     |
+| Parameter           | Min     | Typ             | Max     | Unit  |  
+| :--------------------|:-------:|:---------------:|:-------:|:-----:|  
+| Technology          |         | Skywater 130 nm |         |       |  
+| AVDD                | 1.7     | 1.8             | 1.9     | V     |  
+| Temperature         | -40     | 27              | 125     | C     |  
