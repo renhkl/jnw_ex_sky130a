@@ -13,7 +13,6 @@ The module is a mandatory Sky 130 nm tutorial in the course TTT4188 Advanced Int
 
 # How
 I made the module by using some of the previously installed tools Magic VSLI, ngspice, netgen and xschem along with the Skywater 130 nm PDK
-<explain short how you made this module>
 
 
 # What
