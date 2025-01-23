@@ -143,8 +143,8 @@ P 5 7 -5 0 -8.75 -5 -17.5 -5 -13.75 0 -17.5 5 -8.75 5 -5 0 \{fill=true\}
 T \{@lab\} -18.75 -8.75 0 1 0.33 0.33 \{\}
 T \{@spice_get_voltage\} 1.875 3.90625 0 0 0.2 0.2 \{layer=15\}
 IBPS_5U}
-C {/home/renhkl/pro/aicex/ip/jnw_ex_sky130a/design/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -70 -470 0 0 {name=xo[3:0]}
-C {/home/renhkl/pro/aicex/ip/jnw_ex_sky130a/design/JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -160 -470 0 1 {name=xi }
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -70 -470 0 0 {name=xo[3:0]}
+C {JNW_ATR_SKY130A/JNWATR_NCH_4C5F0.sym} -160 -470 0 1 {name=xi }
 C {devices/ipin.sym} 20 -520 2 0 {name=p3 lab=IBNS_20U \{xschem version=3.4.4 file_version=1.2
 *
 * This file is part of XSCHEM,
