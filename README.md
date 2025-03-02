@@ -9,10 +9,10 @@
 renhkl
 
 # Why
-The module is a mandatory Sky 130 nm tutorial in the course TTT4188 Advanced Integrated Circuits
+The module is a mandatory Sky 130 nm tutorial in the course TFE4188 Advanced Integrated Circuits
 
 # How
-I made the module by using some of the previously installed tools Magic VSLI, ngspice, netgen and xschem along with the Skywater 130 nm PDK
+I made the module by using some of the previously installed tools Magic VLSI, ngspice, netgen and xschem along with the Skywater 130 nm PDK
 
 
 # What
